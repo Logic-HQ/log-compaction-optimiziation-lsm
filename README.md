@@ -40,12 +40,8 @@ To prove deep systems capability, the project shouldn't just wrap RocksDB; it sh
 ## [Core Engineering Challenges & Points](https://github.com/Logic-HQ/log-compaction-optimiziation-lsm/wiki)
 
 
-## 1. Telemetry Capture: Dynamic I/O & Latency Feedback Loop
-
-## 2. The Pluggable Scheduler: Hybrid Size-Tiered vs. Leveled
-
-## 3. Advanced Priority Queuing (The "What to Merge" Problem)
-
-## 4. Execution Layer: Memory-Efficient Zero-Copy Merging
-
-## 5. Interacting with an existing database engine like [RocksDB](https://github.com/Logic-HQ/log-compaction-optimiziation-lsm/wiki/Engineers-choose-Google's-Level%E2%80%90DB).
+1. Telemetry Capture: Dynamic I/O & Latency Feedback Loop
+2. The Pluggable Scheduler: Hybrid Size-Tiered vs. Leveled
+3. Advanced Priority Queuing (The "What to Merge" Problem)
+4. Execution Layer: Memory-Efficient Zero-Copy Merging
+5. Interacting with an existing database engine like [RocksDB](https://github.com/Logic-HQ/log-compaction-optimiziation-lsm/wiki/Engineers-choose-Google's-Level%E2%80%90DB).
